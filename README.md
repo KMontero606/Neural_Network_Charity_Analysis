@@ -15,9 +15,13 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
      - What variable(s) are neither targets nor features, and should be removed from the input data?
        - the EIN and Ask amount were removed from the input data as it is irrelevant. 
 
+![image](https://user-images.githubusercontent.com/106962921/196180311-4312878b-3a18-4ff2-a9f1-bfcef60e1b14.png)
+
    - Compiling, Training, and Evaluating the Model
      - How many neurons, layers, and activation functions did you select for your neural network model, and why?
        - There are three hidden layers with 100 neurons in the first layer, 30 neurons in the second layer and 10 neurons in the third layer. The activation functions chosen for my neural network are relu at the first layer, relut at the second layer and sigmoid for the third layer.
+       
+       ![image](https://user-images.githubusercontent.com/106962921/196181518-f3ec9409-47e3-40ec-9522-1db220b965b8.png)
        
      - Were you able to achieve the target model performance?
        - I was able to achieve 0.74 accuracy on the second attempt with the described model above. The first and third attempt accuracy were 0.73 and 0.74 respectively.
