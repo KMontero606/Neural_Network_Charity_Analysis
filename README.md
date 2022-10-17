@@ -17,8 +17,20 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 
    - Compiling, Training, and Evaluating the Model
      - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-       - There are three hidden layers with 100 neurons in the first layer, 30 neurons in the second layer and 10 neurons in the third layer. The activation functions chosen for my neural network are relu at the first layer, relut at the second layer and sigmoid for the third layer. 
+       - There are three hidden layers with 100 neurons in the first layer, 30 neurons in the second layer and 10 neurons in the third layer. The activation functions chosen for my neural network are relu at the first layer, relut at the second layer and sigmoid for the third layer.
+       
      - Were you able to achieve the target model performance?
+       - I was able to achieve 0.74 accuracy on the second attempt with the described model above. The first and third attempt accuracy were 0.73 and 0.74 respectively.
+       
      - What steps did you take to try and increase model performance?
+       - First attempt, I preprocessed the data by droping the EIN and ASK_AMT column and assess the NAME, APPLICATION_TYPE and CLASSIFICATION column for binning. Then, I designed a model with three hidden layers with 100, 80 and 30 hidden nodes for each layer respectively. The accuracy score yield to be 0.73 with loss score of 0.57.
+       ![image](https://user-images.githubusercontent.com/106962921/196179463-6aa8dfc4-0a3f-4166-bd9e-79bb25877469.png)
+       
+       - Second attempt, I preprocessed the data by dropping the EIN onlyand assess the NAME, APPLICATION_TYPE and CLASSIFICATION column for binning. Then, I designed a model with three hidden layers with 100, 30 and 10 hidden nodes for each layer respectively and changing the third layer activation function to sigmoid. The accuracy score yield to be 0.74 with loss score of 0.53.
+       
+       ![image](https://user-images.githubusercontent.com/106962921/196179319-b38542c1-45ec-4e9a-bbfe-8fd77e64b5e3.png)
+
+       - The third attempt, I used the same preprocessed data from the second attempt by changing the second layer activation function to sigmoid. The accuracy score yield of 0.74 with loss score of 0.53.
+       ![image](https://user-images.githubusercontent.com/106962921/196179111-5277d785-9037-4d0d-a59b-a8211e1d467f.png)
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
