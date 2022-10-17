@@ -17,6 +17,7 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 
    - Compiling, Training, and Evaluating the Model
      - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+       - There are three hidden layers with 100 neurons in the first layer, 30 neurons in the second layer and 10 neurons in the third layer. The activation functions chosen for my neural network are relu at the first layer, relut at the second layer and sigmoid for the third layer. 
      - Were you able to achieve the target model performance?
      - What steps did you take to try and increase model performance?
 
