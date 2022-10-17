@@ -37,4 +37,6 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
        - The third attempt, I used the same preprocessed data from the second attempt by changing the second layer activation function to sigmoid. The accuracy score yield of 0.74 with loss score of 0.53.
        ![image](https://user-images.githubusercontent.com/106962921/196179111-5277d785-9037-4d0d-a59b-a8211e1d467f.png)
 
-## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+## Summary: 
+The overall results of the deep learning model designed could only yield a 0.74 accuracy with a loss score of 0.53. 
+I would recommend a Random Forest model which could solve this classification problem as this particular model handles tabular data like the one provided.
